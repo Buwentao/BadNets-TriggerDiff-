@@ -18,13 +18,7 @@ ENV/
 Thumbs.db
 .vscode/
 
-# Data (CIFAR-10 batches are large; keep instructions to download instead)
-data/cifar-10-batches-py/
-data/*.tar.gz
-data/*.tgz
-
-# Training artifacts (large model checkpoints)
-results/runs/
+# Data / artifacts are tracked via Git LFS (see .gitattributes)
 
 # Optional: Jupyter
 .ipynb_checkpoints/

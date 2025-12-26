@@ -1,6 +1,6 @@
 # BadNets Backdoor + Fine-tuning / Fine-pruning (CIFAR-10)
 
-This project implements:
+This project implements (PyTorch, CIFAR-10):
 
 - BadNets attack: add a bottom-right square trigger and relabel to a target class during training.
 - Metrics: Clean Accuracy (CA) and Attack Success Rate (ASR).
@@ -14,6 +14,16 @@ You already have `torch/torchvision` installed in this environment. If needed:
 
 ```bash
 pip install numpy tqdm pandas pyyaml matplotlib
+```
+
+## Repo notes (large files)
+
+This repository uses **Git LFS** to store large artifacts (e.g. `results/runs/*.pt`, CIFAR-10 files under `data/`).
+If you clone this repo and need those large files, make sure you have Git LFS installed:
+
+```bash
+git lfs install
+git lfs pull
 ```
 
 ## Recommended commands
@@ -45,3 +55,10 @@ python src/run_all.py --seed 42 --epochs_clean 50 --epochs_backdoor 50 --epochs_
 - Checkpoints: `results/runs/*.pt`
 - Tables: `results/tables/*.csv`
 - Figures: `results/figures/*.png`
+
+## Project structure
+
+- `src/`: training / evaluation / defense scripts
+- `src/backdoor/`: trigger + poisoning + metrics
+- `data/`: CIFAR-10 files
+- `results/`: experiment outputs (checkpoints, tables, figures)

@@ -1,0 +1,7 @@
+Setting,CA,ASR,ckpt,prune_ratio
+Defense: Fine-tune,0.8388,0.765,results/runs/def_ft_from_bd_p0.05_t9_s5_seed42.pt,
+Defense: Prune10%+FT,0.8508,0.9811111111111112,results/runs/def_fp0.10_from_bd_p0.05_t9_s5_seed42.pt,0.1
+Defense: Prune20%+FT,0.8543,0.9745555555555555,results/runs/def_fp0.20_from_bd_p0.05_t9_s5_seed42.pt,0.2
+Defense: Prune25%+FT,0.8551,0.9632222222222222,results/runs/def_fp0.25_from_bd_p0.05_t9_s5_seed42.pt,0.25
+Defense: Prune30%+FT,0.8558,0.004111111111111111,results/runs/def_fp0.30_from_bd_p0.05_t9_s5_seed42.pt,0.3
+Defense: Prune35%+FT,0.8554,0.0008888888888888889,results/runs/def_fp0.35_from_bd_p0.05_t9_s5_seed42.pt,0.35

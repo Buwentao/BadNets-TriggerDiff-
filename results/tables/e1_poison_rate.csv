@@ -1,0 +1,5 @@
+ckpt,CA,ASR,trigger_size,trigger_value,target_label,kind,seed,epochs,poison_rate
+/mnt/backdoor_badnets/results/runs/bd_p0.01_t9_s5_seed42.pt,0.8653,0.9055555555555556,5,1.0,9,backdoor,42,50,0.01
+/mnt/backdoor_badnets/results/runs/bd_p0.03_t9_s5_seed42.pt,0.8641,0.9525555555555556,5,1.0,9,backdoor,42,50,0.03
+/mnt/backdoor_badnets/results/runs/bd_p0.05_t9_s5_seed42.pt,0.8575,0.9594444444444444,5,1.0,9,backdoor,42,50,0.05
+/mnt/backdoor_badnets/results/runs/bd_p0.10_t9_s5_seed42.pt,0.8565,0.9733333333333334,5,1.0,9,backdoor,42,50,0.1

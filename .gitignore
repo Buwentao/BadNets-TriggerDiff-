@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data (CIFAR-10 batches are large; keep instructions to download instead)
+data/cifar-10-batches-py/
+data/*.tar.gz
+data/*.tgz
+
+# Training artifacts (large model checkpoints)
+results/runs/
+
+# Optional: Jupyter
+.ipynb_checkpoints/

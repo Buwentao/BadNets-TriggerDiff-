@@ -1,0 +1,6 @@
+ckpt,CA,ASR,trigger_size,trigger_value,target_label,kind,seed,epochs,prune_ratio,clean_subset,from_ckpt
+results/runs/def_fp0.10_from_bd_p0.05_t9_s5_seed42.pt,0.8508,0.9811111111111112,5,1.0,9,defense_fineprune,42,10,0.1,10000,results\runs\bd_p0.05_t9_s5_seed42.pt
+results/runs/def_fp0.20_from_bd_p0.05_t9_s5_seed42.pt,0.8543,0.9745555555555555,5,1.0,9,defense_fineprune,42,10,0.2,10000,results\runs\bd_p0.05_t9_s5_seed42.pt
+results/runs/def_fp0.25_from_bd_p0.05_t9_s5_seed42.pt,0.8551,0.9632222222222222,5,1.0,9,defense_fineprune,42,10,0.25,10000,results\runs\bd_p0.05_t9_s5_seed42.pt
+results/runs/def_fp0.30_from_bd_p0.05_t9_s5_seed42.pt,0.8558,0.004111111111111111,5,1.0,9,defense_fineprune,42,10,0.3,10000,results\runs\bd_p0.05_t9_s5_seed42.pt
+results/runs/def_fp0.35_from_bd_p0.05_t9_s5_seed42.pt,0.8554,0.0008888888888888889,5,1.0,9,defense_fineprune,42,10,0.35,10000,results\runs\bd_p0.05_t9_s5_seed42.pt
